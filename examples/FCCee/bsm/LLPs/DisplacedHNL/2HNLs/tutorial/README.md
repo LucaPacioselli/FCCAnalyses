@@ -8,6 +8,12 @@ To start running the codes in this tutorial you need to have FCCAnalyses configu
 
 The in-depth and general tutorial on using FCCAnalyses for LLP HNL signals can be found in the README.md of `examples/FCCee/bsm/LLPs/DisplacedHNL`.
 
+Anyway, every time you open a new terminal from which you need to use FCCAnalyses instructions you must run the following command **inside your FCCAnalyses directory**:
+```
+source ./setup.sh
+```
+
+
 ## Pre-selection (`analysis_stage1_bkg.py`)
 
 Analysis through FCC analyzers starts from events in EDM4hep format. In this tutorial, the reference database is the Winter 2023 campaign (http://fcc-physics-events.web.cern.ch/fcc-physics-events/FCCee/winter2023/Delphesevents_IDEA.php). It was used a 0.01 fraction of the background events we are interested in from the winter 23 campaign (order 10^8) to speed up testing. 
